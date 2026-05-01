@@ -1,91 +1,95 @@
-
+/* GENERAL PAGE */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #0b0f14;
-    color: #ffffff;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #0a0f0a; /* deep military black-green */
+    color: #d1d5db;
     margin: 0;
-    display: block;
     padding: 0;
 }
 
+/* HEADER */
 header {
-    background-color: #111827;
+    background-color: #1b2a1b; /* army green */
     padding: 15px;
-    border-bottom: 3px solid #facc15;
+    border-bottom: 4px solid #6b8e23; /* olive green */
 }
 
 header h1 {
-    margin: 0;
-    color: #facc15;
     text-align: center;
+    color: #c7d59f; /* light khaki */
+    letter-spacing: 2px;
 }
 
-
+/* NAVBAR */
 nav {
-    background-color: #1f2937;
+    background-color: #2d3e2d;
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: #ffffff;
+    color: #c7d59f;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 20px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 nav a:hover {
-    color: #facc15;
+    color: #6b8e23;
 }
 
-
+/* HEADINGS */
 h1, h2 {
     text-align: center;
-    color: #facc15;
+    color: #a3b18a;
+    text-transform: uppercase;
 }
 
-
+/* PRODUCT TABLE */
 table {
     border-collapse: collapse;
     width: 90%;
     margin: 20px auto;
-    background-color: #111827;
+    background-color: #1b2a1b;
 }
 
 td {
-    border: 1px solid #374151;
+    border: 1px solid #3a5a40;
     padding: 20px;
     text-align: center;
 }
 
-
+/* PRODUCT IMAGE */
 img {
     width: 200px;
-    height: auto;
-    border-radius: 10px;
-}
-
-
-button {
-    background-color: #facc15;
-    color: #000;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-weight: bold;
+    border: 2px solid #6b8e23;
     border-radius: 5px;
 }
 
-button:hover {
-    background-color: #eab308;
+/* BUTTONS */
+button {
+    background-color: #6b8e23;
+    color: #0a0f0a;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
 }
 
+button:hover {
+    background-color: #556b2f;
+}
+
+/* FORMS */
 form {
     width: 60%;
     margin: auto;
-    background-color: #111827;
+    background-color: #1b2a1b;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 input, textarea {
@@ -94,13 +98,21 @@ input, textarea {
     margin: 10px 0;
     border: none;
     border-radius: 5px;
+    background-color: #0a0f0a;
+    color: #c7d59f;
 }
 
-
+/* FOOTER */
 footer {
-    background-color: #111827;
+    background-color: #1b2a1b;
     text-align: center;
     padding: 15px;
+    border-top: 3px solid #6b8e23;
     margin-top: 20px;
-    border-top: 2px solid #facc15;
+}
+
+/* EXTRA: HOVER EFFECT FOR PRODUCTS */
+td:hover {
+    background-color: #243524;
+    transition: 0.3s;
 }
