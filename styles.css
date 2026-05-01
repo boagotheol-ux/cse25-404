@@ -1,4 +1,4 @@
-/* GENERAL PAGE STYLE */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #0b0f14;
@@ -7,7 +7,6 @@ body {
     padding: 0;
 }
 
-/* HEADER */
 header {
     background-color: #111827;
     padding: 15px;
@@ -20,7 +19,7 @@ header h1 {
     text-align: center;
 }
 
-/* NAVIGATION */
+
 nav {
     background-color: #1f2937;
     padding: 10px;
@@ -38,13 +37,13 @@ nav a:hover {
     color: #facc15;
 }
 
-/* SECTION TITLES */
+
 h1, h2 {
     text-align: center;
     color: #facc15;
 }
 
-/* TABLE LAYOUT (FOR PRODUCTS) */
+
 table {
     border-collapse: collapse;
     width: 90%;
@@ -58,14 +57,14 @@ td {
     text-align: center;
 }
 
-/* PRODUCT IMAGES */
+
 img {
     width: 200px;
     height: auto;
     border-radius: 10px;
 }
 
-/* BUTTONS */
+
 button {
     background-color: #facc15;
     color: #000;
@@ -80,7 +79,6 @@ button:hover {
     background-color: #eab308;
 }
 
-/* FORMS (CONTACT / FEEDBACK) */
 form {
     width: 60%;
     margin: auto;
@@ -97,7 +95,7 @@ input, textarea {
     border-radius: 5px;
 }
 
-/* FOOTER */
+
 footer {
     background-color: #111827;
     text-align: center;
