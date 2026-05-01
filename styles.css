@@ -1,24 +1,24 @@
-/* BODY */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #0d1117; /* dark tactical */
+    background-color: #0d1117;
+    display: flex;
     color: #d1d5db;
 }
 
-/* MAIN TITLE */
+
 h1 {
-    color: #c2b280; /* khaki */
+    color: #c2b280; 
     letter-spacing: 2px;
 }
 
-/* HEADINGS */
 h2 {
-    color: #8f9779; /* military green */
+    color: #8f9779; 
     text-transform: uppercase;
     margin-top: 30px;
 }
 
-/* NAVIGATION LINKS */
+
 a {
     color: #c2b280;
     text-decoration: none;
@@ -29,20 +29,19 @@ a:hover {
     color: #6b8e23;
 }
 
-/* HORIZONTAL LINE */
+
 hr {
     border: 1px solid #2e3b2e;
     width: 80%;
 }
 
-/* IMAGES */
 img {
     border: 2px solid #6b8e23;
     border-radius: 5px;
     margin: 10px;
 }
 
-/* BUTTONS */
+
 button, input[type="submit"] {
     background-color: #6b8e23;
     color: #0d1117;
@@ -58,12 +57,12 @@ button:hover, input[type="submit"]:hover {
     background-color: #556b2f;
 }
 
-/* PARAGRAPH TEXT */
+
 p {
     line-height: 1.6;
 }
 
-/* TABLE (FEEDBACK FORM) */
+
 table {
     background-color: #161b22;
     border: 1px solid #2e3b2e;
@@ -73,7 +72,6 @@ td {
     color: #d1d5db;
 }
 
-/* INPUT FIELDS */
 input, textarea {
     background-color: #0d1117;
     color: #c2b280;
@@ -81,18 +79,15 @@ input, textarea {
     padding: 5px;
 }
 
-/* CHECKBOX & RADIO */
 input[type="checkbox"],
 input[type="radio"] {
     accent-color: #6b8e23;
 }
 
-/* FOOTER */
 h3 {
     color: #8f9779;
 }
 
-/* SMALL HOVER EFFECT FOR PRODUCTS */
 img:hover {
     transform: scale(1.05);
     transition: 0.3s;
